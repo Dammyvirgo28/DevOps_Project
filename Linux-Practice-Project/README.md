@@ -49,3 +49,17 @@
 # Step 11 - touch command
 
 ![Alt text](Images/touch.png)
+
+# Step 12 - locate command
+
+![Alt text](<Images/locate 1.png>)
+
+![Alt text](<Images/locate 2.png>)
+
+# locate *content did not work
+
+![Alt text](<Images/locate 3.png>)
+
+# Step 13 - find command 
+
+![Alt text](Images/find.png)

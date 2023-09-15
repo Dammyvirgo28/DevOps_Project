@@ -34,4 +34,18 @@
 
 ![Alt text](Images/mv.png)
 
+# Step 8 - mkdir command
 
+![Alt text](Images/mkdir.png)
+
+# Step 9 - rmdir command
+
+![Alt text](Images/rmdir.png)
+
+# Step 10 - rm command
+
+![Alt text](Images/rm.png)
+
+# Step 11 - touch command
+
+![Alt text](Images/touch.png)

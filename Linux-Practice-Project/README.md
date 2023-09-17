@@ -65,8 +65,30 @@
 ![PWD](Images/find.png)
 
 
-# Step 11 grep cammand
+# Step 14 - grep cammand
 
 ![Alt text](Images/grep.png)
+
+# Step 15 - df command
+
+![Alt text](Images/df1.png)
+
+
+![Alt text](Images/df2.png)
+
+![Alt text](Images/df3.png)
+
+# Step 16 - du command 
+
+![Alt text](<Images/du command.png>)
+
+# Step 17 - head command
+
+![Alt text](<Images/head 1.png>)
+
+![Alt text](Images/head2.png)
+
+
+
 
 

@@ -88,7 +88,17 @@
 
 ![Alt text](Images/head2.png)
 
+# Step 18 - tail command
 
+![Alt text](Images/tail.png)
+
+# step 19 - diff command
+
+![Alt text](<Images/diff command.png>)
+
+![Alt text](<Images/diff command2.png>)
+
+# Step 20 - tar command
 
 
 

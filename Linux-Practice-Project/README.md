@@ -100,5 +100,5 @@
 
 # Step 20 - tar command
 
-
+![Alt text](Images/tar.png)
 

@@ -103,3 +103,22 @@
 ![Alt text](Images/tar.png)
 
 ![Alt text](Images/tar2.png)
+
+
+# Step 21 - chmod command
+
+![Alt text](Images/chmod.png)
+
+# step 22 - chown command 
+
+![Alt text](Images/chown.png)
+
+# Step 23 - jobs cammand
+
+![Alt text](Images/jobs.png)
+
+# sTEP 24 - KILL COOMAND
+
+![Alt text](Images/KILL.png)
+
+

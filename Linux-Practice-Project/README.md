@@ -147,3 +147,7 @@
 
 ![Alt text](Images/man2.png)
 
+# Step 31 - echo command 
+
+![Alt text](Images/echo.png)
+

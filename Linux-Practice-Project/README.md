@@ -117,8 +117,33 @@
 
 ![Alt text](Images/jobs.png)
 
-# sTEP 24 - KILL COOMAND
+# Step 24 - KILL COOMAND
 
 ![Alt text](Images/KILL.png)
 
+# Step 25 - ping command
+
+![Alt text](Images/ping.png)
+
+# Step 26 - wget command
+
+![Alt text](Images/wget.png)
+
+ # Step 27 - uname command
+
+![Alt text](Images/uname.png)
+
+# Step 28 - top command
+
+![Alt text](Images/top.png)
+
+# Step 29 - history  command
+
+![Alt text](Images/history.png)
+
+# Step 30 - man command
+
+![Alt text](Images/man.png)
+
+![Alt text](Images/man2.png)
 

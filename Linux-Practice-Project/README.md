@@ -151,3 +151,70 @@
 
 ![Alt text](Images/echo.png)
 
+# Step 32 - zip and unzip commands
+
+![Alt text](Images/zip1.png)
+
+![Alt text](Images/zip2.png)
+
+![Alt text](Images/unzip.png)
+
+![Alt text](<Images/zip gzip.png>)
+
+![Alt text](<Images/zip gzip2.png>)
+
+# Step 33 - hostname command
+
+![Alt text](Images/hostname.png)
+
+# Step 34 - useradd and userdel commands
+
+![Alt text](Images/useradd.png)
+
+![Alt text](Images/userdel.png)
+
+# Step 35 - apt-get command
+
+![Alt text](<Images/apt-get update.png>)
+
+![Alt text](<Images/apt-get upgrade.png>)
+
+# Step 36 - nano, vi and jed commands
+
+![Alt text](Images/nano.png)
+
+![Alt text](Images/vi.png)
+
+![Alt text](<Images/jed install.png>)
+
+![Alt text](<Images/jed editor.png>)
+
+![Alt text](Images/jed.png)
+
+# Step 37 - alias and unalias commands
+
+![Alt text](Images/alias.png)
+
+![Alt text](Images/unalias.png)
+
+# Step 38 - su (switch user)
+
+![Alt text](<Images/su (switch user).png>)
+
+![Alt text](Images/su.png)
+
+# Step 39 -htop command
+
+![Alt text](Images/htop.png)
+
+# Step 40 - ps command
+
+![Alt text](Images/ps.png)
+
+![Alt text](<Images/ps -A.png>)
+
+![Alt text](<Images/ps -e.png>)
+
+![Alt text](<Images/ps -T.png>)
+
+# THIS IS THE END OF LINUX PROJECT

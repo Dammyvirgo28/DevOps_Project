@@ -45,7 +45,13 @@
 
 - Step 9: Markdown syntax
 
-- a) Headings
+- a) Headings - he hashtag or pound symbol (#) is used to create headings. The number of hashtags indicates the level of the heading. For example:
+
+One hashtag (#) creates a level 1 heading.
+Two hashtags (##) create a level 2 heading.
+Three hashtags (###) create a level 3 heading, and so on.
+ 
+ - Example below
 
 # Hello
 
@@ -53,10 +59,24 @@
 
 ### Hello 
 
-![Alt text](9-Tags-headings.png)
+#### Hello
 
+ - Step 10: Emphasis - Asterisk or underscore is used to emphasize text
+ 
+ - In Visual Studio Code's Markdown, the asterisk (*) is often used as a syntax element to create various formatting styles. The specific function of the asterisk can vary depending on how it is used. Here are some common use cases:
 
+Italic Text:
 
+Syntax: *italic* or _italic_
+Example: italic
+Bold Text:
+
+Syntax: **bold** or __bold__
+Example: bold
+
+![Alt text](<demo italics.png>)
+
+Demo
 
 
 

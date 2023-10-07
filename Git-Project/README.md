@@ -101,14 +101,24 @@ Example: **Hello world** __Hello world__
 
 5. Images - To display an image, use an exclamation mark followed by square brackets for the alt text and parentheses containing the image URL
 
-E.g ![Alt Text](https://example.com/image.jpg)
+E.g > ![Alt Text](https://example.com/image.jpg)
 
 6. Code - To dispaly code or code snippets, use backticks (Hello) to enclose the code
 E.g console.log ('welcome to darey.io')
 
+![Alt text](<markdown tags.png>)
 
+7. Blockquote - 
 
+> Hello world
 
+>> Hello world
+
+>>> Hello world
+
+![Alt text](blockquote.png)
+
+# This is the end of Git project
 
 
 

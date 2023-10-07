@@ -40,12 +40,12 @@
 ![Alt text](<7-branch delete.png>)
 
 - Step 8: Cloning remote git repository - The 'git clone' command helps us make a copy of remote repository on our local machine.
-- The command is git clone <link to your remote repository>
 
+- The command is 'git clone (link to your remote repository)'
 
 - Step 9: Markdown syntax
 
-- a) Headings - he hashtag or pound symbol (#) is used to create headings. The number of hashtags indicates the level of the heading. For example:
+1. Headings - he hashtag or pound symbol (#) is used to create headings. The number of hashtags indicates the level of the heading. For example:
 
 One hashtag (#) creates a level 1 heading.
 Two hashtags (##) create a level 2 heading.
@@ -61,22 +61,55 @@ Three hashtags (###) create a level 3 heading, and so on.
 
 #### Hello
 
- - Step 10: Emphasis - Asterisk or underscore is used to emphasize text
+ 2.  Emphasis - Asterisk or underscore is used to emphasize text
  
  - In Visual Studio Code's Markdown, the asterisk (*) is often used as a syntax element to create various formatting styles. The specific function of the asterisk can vary depending on how it is used. Here are some common use cases:
 
 Italic Text:
 
 Syntax: *italic* or _italic_
-Example: italic
+Example: *Hello world* _Hello world_
+        
 Bold Text:
 
 Syntax: **bold** or __bold__
-Example: bold
+Example: **Hello world** __Hello world__
 
-![Alt text](<demo italics.png>)
+3. Lists - Markdown has support for both ordered and unordered list.
 
-Demo
+## Ordered list
+
+1. First item
+
+2. Second item 
+
+3. Third item
+
+## Unordered list 
+
+- Item 1 
+
+- Item 2
+
+* Item 3 
+
+* Item 4
+
+4. Links - To create a hyperlink, use square brackets for the linktext followed by parantheses contain the URL
+
+* Example: [visit dare.io](htttps://www.google.com)
+
+5. Images - To display an image, use an exclamation mark followed by square brackets for the alt text and parentheses containing the image URL
+
+E.g ![Alt Text](https://example.com/image.jpg)
+
+6. Code - To dispaly code or code snippets, use backticks (Hello) to enclose the code
+E.g console.log ('welcome to darey.io')
+
+
+
+
+
 
 
 

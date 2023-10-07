@@ -43,7 +43,7 @@
 
 - The command is 'git clone (link to your remote repository)'
 
-- Step 9: Markdown syntax
+- Step 9: Introduction to Markdown syntax
 
 1. Headings - he hashtag or pound symbol (#) is used to create headings. The number of hashtags indicates the level of the heading. For example:
 

@@ -119,7 +119,9 @@
 
 ![Alt text](<Images/Reload Apache.png>)
 
+- The new website is now active but the web root **/var/www/ProjectLamp** is still empty. An index.html file will be created in that location to test the Virtual Host.
 
+![Alt text](<Images/creating index.html to test virtual host.png>)
 
 
 

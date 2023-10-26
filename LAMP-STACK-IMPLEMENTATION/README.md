@@ -76,3 +76,163 @@
 ![Alt text](<Images/PHP version confirmation.png>)
 
 - At this point, the LAMP Stack is completely installed and fully operational
+
+## Step 4 - Creating a virtual host for website using Apache
+
+- This project will set up a domain called ProjectLamp; Apache on Ubuntu 20.04 has one server block enabled by default that is configured to serve documents from the **var/www/html** directory. 
+
+- We will leave that directory and create another directory called "ProjectLamp" with 'sudo mkdir /var/www/ProjectLamp' command
+
+![Alt text](<Images/Directory project lamp.png>)
+
+- The next thing is to assign ownership to the directory with the $USER environment variable, which will reference the current system user. 
+
+- The command 'sudo chown -R $USER:$USER /var/www/ProjectLamp' was used, see image below:
+
+![Alt text](<Images/chown Assign Ownership.png>)
+
+- The next thing is to create and open a new configuration file in Apache's "sites-avalaible" directory using either of the command-line-editor ('vi' or 'vim' they are basically the same) configurtion file
+
+- The command 'sudo vi /etc/apache2/sites-available/ProjectLamp.conf' will create a new blank file and we will write the configuration in it.
+
+![Alt text](Images/ProjectLamp.conf.png)
+
+- The image above shows that the ProjectLamp.conf file has been successfully created in the **sites-available** directory.
+
+![Alt text](<Images/ProjectLamp configuration.png>)
+
+- The image above shows the configuration of ProjectLamp which tells Apache to serve ProjectLamp using **/var/www/ProjectLamp** as its web root directory.  
+
+- The next step is to use 'sudo a2ensite ProjectLamp' command to enable the new virtual host.
+
+![Alt text](<Images/a2ensite command.png>)
+
+- The next step is use the command 'sudo a2dissite 000-default' to disable the default website that that comes installed with Apache. This is required if a custom domain is not been used, otherwise Apache's default configuration would overwrite the Virtual Host
+
+![Alt text](<Images/a2dissite command.png>)
+
+- The next step is to use the command 'sudo apache2ctl configtest' to confirm that the configuration files does not contain syntax errors. The image below shows that the syntax is ok
+
+![Alt text](<Images/Syntax Config-Test.png>)
+
+- The final step is to use the command 'sudo systemctl reload apache2' to reload Apache so that the changes can take effect. 
+
+![Alt text](<Images/Reload Apache.png>)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

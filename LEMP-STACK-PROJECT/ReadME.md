@@ -76,12 +76,29 @@ The images above show successful installation of mysql.
 
 ## Step 4: Configuring Nginx to use PHP Processor - When using the Nginx web server, server blocks (similar to virtual hosts in Apache) can be created to encapsulate configuration details and host more than one domain on a single server. This Project will use "ProjectLEMP" as an example domain name. 
 
-- On Ubuntu 20.04, Nginx has one server block enabled by default and is configured to serve documents out of a directory at */var/www/html*. While this works well for a single site, it can become difficult to manage if you are hosting multiple sites. Instaed of modifying **/var/www/html**, a directory structure will be created within */var/www* for the new domain **(ProjectLEMP)** website, leaving */var/www.html* in place as the default directory to be served if a client request does not match any other sites. 
+- On Ubuntu 20.04, Nginx has one server block enabled by default and is configured to serve documents out of a directory at **/var/www/html**. While this works well for a single site, it can become difficult to manage if you are hosting multiple sites. Instaed of modifying **/var/www/html**, a directory structure will be created within **/var/www** for the new domain **(ProjectLEMP)** website, leaving **/var/www.html** in place as the default directory to be served if a client request does not match any other sites. 
 
+- The first step is to create the web directory for the new domain **ProjectLEMP** with the command ***sudo mkdir /var/www/ProjectLEMP***
 
+See image below: 
 
+![Alt text](<Images/16- making directory project lemp.png>)
 
+- The next step is to assign ownership of the directory with the **$USER** environment variable, which will reference the current user. The following command will be used to assign ownership ***sudo chown -R $USER:$USER /var/www/ProjectLEMP***
 
+See image below:
+
+![Alt text](<Images/17- change ownership.png>)
+
+- In the next step, *nano editor* will be used to open a new configuration file in Nginx's **sites-available** directory using the command ***sudo nano /etc/nginx/sites-available/ProjectLEMP***. 
+
+![Alt text](<Images/18- sudo nano.png>)
+
+This will create a new blank file where the configuration will be written. 
+
+See image below for configuration:
+
+![Alt text](<Images/19- nano configuration.png>)
 
 
 

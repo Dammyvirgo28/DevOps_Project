@@ -76,7 +76,7 @@ The images above show successful installation of mysql.
 
 ## Step 4: Configuring Nginx to use PHP Processor - When using the Nginx web server, server blocks (similar to virtual hosts in Apache) can be created to encapsulate configuration details and host more than one domain on a single server. This Project will use "ProjectLEMP" as an example domain name. 
 
-- On Ubuntu 20.04, Nginx has one server block enabled by default and is configured to serve documents out of a directory at */var/www/html*. While this works well for a single site, it can become difficult to manage if you are hosting multiple sites. Instaed of modifying */var/www/html*, a directory structure will be created within */var/www* for the new domain **(ProjectLEMP)** website, leaving */var/www.html* in place as the default directory to be served if a client request does not match any other sites. 
+- On Ubuntu 20.04, Nginx has one server block enabled by default and is configured to serve documents out of a directory at */var/www/html*. While this works well for a single site, it can become difficult to manage if you are hosting multiple sites. Instaed of modifying **/var/www/html**, a directory structure will be created within */var/www* for the new domain **(ProjectLEMP)** website, leaving */var/www.html* in place as the default directory to be served if a client request does not match any other sites. 
 
 
 

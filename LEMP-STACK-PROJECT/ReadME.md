@@ -125,17 +125,37 @@ See image below - That will tell Nginx to use the configuration next time it is 
 
 - The next step is to test the Configuration for syntax error with the following command ***sudo nginx -t*** 
 
-See image below for test confirmation:
+See image below for test confirmation which shows that the configuration syxtax has no error.
 
 ![Alt text](<Images/21- test syntax error.png>)
 
+- The next step is to disable default Nginx configured to listen on port 80 with the following command ***sudo unlink /etc/nginx/sites-enabled/default*** and reload Nginx to apply the changes. 
 
+See images below:
 
+![Alt text](<Images/22- disable default nginx host.png>)
 
+![Alt text](<Images/23- reload nginx.png>)
 
+- At this point, the website is now active but the root/var/www/ProjectLEMP is still empty. For this project, an index.html file will be created in that location to test the new server block functions as expected. 
 
+See image below for successful creation of index.html file
 
+![Alt text](<Images/24- create index-html.png>)
 
+- The next step is to open the browser to test the website URL using the IP adress by typing __http://"IP-Address":80__
+
+See image below for the text from the ***echo*** command written to the index.html file which means the Nginx site is functioning as expected. The output will display the server's public hostname (DNS name) and public IP address. 
+
+Note: The website can also be accessed from the browser through the public DNS name.  
+
+![Alt text](<Images/25- website displayed.png>)
+
+- At this point, the LEMP stack is now fully configured.
+
+## Step 5: Testing PHP with Nginx - At this point, the LEMP stack is now completely set up and fully operational. 
+
+- The next step is test the Nginx to validate that it can correctly hand **.php** files off to the PHP processor. To do this, a test PHP file will be created in the document root. The nano command will be used to open a new *info.php file**
 
 
 

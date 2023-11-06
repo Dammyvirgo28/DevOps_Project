@@ -173,13 +173,41 @@ See image below for the output which shows relevant and sensitive information ab
 
 **NOTE:** The page that contains sensitive information about the server can be removed with the following command. ***sudo rm /var/www/domain-name/info.php***  
 
-## Step 6: Retrieving data from MySQL database with PHP
+## Step 6: Retrieving data from MySQL database with PHP. In this step, a test database will be created with a simple "To do list" and configure access to it, so the Nginx website would be able to querry data from the Database and display it.
 
+- The next step is to create a new user with the **mysql_native_password** aithentication method in order to be able to connect to MySQL database from PHP. An example database and a test-user will be created namely Demo_DB and Demo-User respecively. To do this, I will connect to MySQL console through the **root** account;
 
+See image for successful root login.
 
+![Alt text](<Images/29 mysql sudo login.png>)
 
+- The next step is to create the database with the following command ***CREATE DATABASE Demo-DB;***
 
+![Alt text](<Images/30- create database.png>)
 
+- The next step is to create **Demo-User** and grant full privileges to the user using *mysql_native_password** as default authentication method to define the password as **PassWord.1**
+
+The image below shows the command used to create **Demo-User** 
+
+![Alt text](<Images/31- Create User.png>)
+
+- The next step is to grant permission to the user over the database and then exit MySQL after granting the permission. 
+
+See image below for the command that gives **Demo-User** full privileges over **Demo_DB** while preventing the User from crreating or modifying other databases on the server.
+
+![Alt text](<Images/32- Grant user permission.png>)
+
+- The next step is to logging to MySQL console agqin with **Demo-User** credentials to test that the user has the proper permissions. 
+
+See image below for successful Demo-User login:
+
+![Alt text](<Images/33- Test User permission okay.png>)
+
+- The next step is to confirm that **Demo-User** has access to **Demo_DB** with the command ***SHOW databases;*** 
+
+See image below for the output.
+
+![Alt text](<Images/34- show databases.png>)
 
 
 

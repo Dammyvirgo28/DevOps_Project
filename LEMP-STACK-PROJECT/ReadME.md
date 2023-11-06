@@ -4,7 +4,7 @@
 
 - Before installing nginx, I will start off by updating the server's package index with ***sudo apt udate*** followed by ***sudo apt install nginx*** to install NGINX
 
-- ![Alt text](<Images/1- sudo update.png>)
+![Alt text](<Images/1- sudo update.png>)
 
 - Install Nginx 
 

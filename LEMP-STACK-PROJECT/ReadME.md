@@ -209,20 +209,33 @@ See image below for the output.
 
 ![Alt text](<Images/34- show databases.png>)
 
+- The next step is create a table named **todo_list**. See image below for the command.
 
+![Alt text](<Images/36- create test table.png>)
 
+![Alt text](<Images/37- create to do list.png>)
 
+- The next step is to confirm that the data was successfuly save by using the following command ***SELECT * FROM Demo_DB.todo_list;*** and exit MySQL console after the confirmation.
 
+See image below for the output
 
+![Alt text](<Images/38- confirm data saved in to do list.png>)
 
+- The next step is to use the **nano** command to create a PHP script in the text editor that will connect to MySQL and querry for the content using the following command ***nano /var/www/ProjectLAMP/todo_list.php***
 
+See image below for the content of the script in the text editor before saving the script.
 
+![Alt text](<Images/39- Nano config.png>)
 
+- The next step is to access the page in a web browser by visiting the domain name or public IP configured for the website, followed by **/todo_list.php** 
 
+See image below for the output of **http://3.9.14.137/todo_list.php**
 
+![Alt text](<Images/41- Todo list Successful.png>)
 
+- The image above confirms that the PHP environment is ready to connect and interact with MySQL server.
 
-
+# This is the end of LEMP STACK PROJECT. 
 
 
 

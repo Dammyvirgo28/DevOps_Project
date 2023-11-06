@@ -155,15 +155,25 @@ Note: The website can also be accessed from the browser through the public DNS n
 
 ## Step 5: Testing PHP with Nginx - At this point, the LEMP stack is now completely set up and fully operational. 
 
-- The next step is test the Nginx to validate that it can correctly hand **.php** files off to the PHP processor. To do this, a test PHP file will be created in the document root. The nano command will be used to open a new *info.php file**
+- The next step is test the Nginx to validate that it can correctly hand **.php** files off to the PHP processor. To do this, a test PHP file will be created in the document root. The nano command will be used to open a new *info.php** file within the document root using the text editor. ***nano /var/www/ProjectLEMP/info.php***
 
+![Alt text](<Images/26- nano php code.png>)
 
+See image below for the code written in the text editor
 
+![Alt text](<Images/27- nano php code.png>)
 
+![Alt text](<Images/28- verify php file.png>)
 
+- The next step is to try and access the page in the web browser by using the domain name or the public IP address followed by **/info.php** 
 
+See image below for the output which shows relevant and sensitive information about the PHP environment and Ubuntu server.  
 
+![Alt text](<Images/40- Output info_php.png>)
 
+**NOTE:** The page that contains sensitive information about the server can be removed with the following command. ***sudo rm /var/www/domain-name/info.php***  
+
+## Step 6: Retrieving data from MySQL database with PHP
 
 
 
